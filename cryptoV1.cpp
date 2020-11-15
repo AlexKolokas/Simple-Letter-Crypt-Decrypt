@@ -1,10 +1,12 @@
+#define _fileno(F) ((F)->_file)
 #include <iostream>
+#include <sstream>
 #include <map>
 #include <string>
-#include <windows.h>
+//#include <windows.h>
 #include <stdlib.h>
 #include <algorithm>
-
+#include "termcolor.hpp"
 using namespace std;
 
 //FUNCTION TO PRINT THE MAP (if necessary)
@@ -26,7 +28,7 @@ int main()
     map<char,int> m;
 
     char ab[26] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}; //alphabetic table
-    int KsH[26] = {4,4,4,5,6,4,4,4,4,4,5,2,2,2,7,2,2,5,3,6,2,2,2,5,5,4}; //table with the number of letters that each letter has
+    int KsH[26] = {4,4,4,5,6,4,4,4,4,4,5,2,2,2,7,2,2,5,3,6,2,2,2,5,5,4}; //table with the number of letters in each letter
 
 //in the loop we make pair of the letter and the key
     for(int i=0; i<26; i++)
@@ -111,6 +113,7 @@ int main()
 
         }
         KeyofLetter=fact*10+key;
+
         for_each(m.begin(),m.end(),[&KeyofLetter](const pair<char, int> &p)
         {
 
@@ -193,12 +196,12 @@ char TakeLetter()
 //FUNCTION TO ASK THE USER IF WANTS TO ENCRYPT OR DECRYPT
 bool CryptOrDecrypt()
 {
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // for the console to print the lines green
+    //HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // for the console to print the lines green
     bool encrypt;
     char choice;
-    SetConsoleTextAttribute(hConsole, 2);// for the console to print the lines green
-    cout<<"_________________________"<<endl;
-    SetConsoleTextAttribute(hConsole, 15) ;// for the console to print the lines back to normal
+ //   SetConsoleTextAttribute(hConsole, 2);// for the console to print the lines green
+    cout<< termcolor::green<<"_________________________"<<termcolor::reset<<endl;
+    //SetConsoleTextAttribute(hConsole, 15) ;// for the console to print the lines back to normal
     cout<<"You want to encrypt(e) or Decrypt(d)? "<<endl;
     do
     {
@@ -216,9 +219,9 @@ bool CryptOrDecrypt()
             cout<<"lets decrypt "<<endl;
         }
 
-        SetConsoleTextAttribute(hConsole, 2);// for the console to print the lines green
-        cout<<"_________________________"<<endl;
-        SetConsoleTextAttribute(hConsole, 15) ;// for the console to print the lines back to normal
+       // SetConsoleTextAttribute(hConsole, 2);// for the console to print the lines green
+        cout<<termcolor::green<<"_________________________"<<termcolor::reset<<endl;
+       // SetConsoleTextAttribute(hConsole, 15) ;// for the console to print the lines back to normal
 
     }
     while( choice!='E' && choice!='e' &&choice!='D'&& choice!='d' );
