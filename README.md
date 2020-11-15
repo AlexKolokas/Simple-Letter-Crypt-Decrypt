@@ -71,7 +71,7 @@ then you divide the result with 2 and the result of the divide you divided it by
 
 ## Compile
 
-Download and use the gcc compiler to compile the project. Depending on your operating system, type the following to compile:
+
 
 
 
