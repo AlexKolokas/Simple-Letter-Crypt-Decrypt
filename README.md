@@ -69,4 +69,26 @@ then you divide the result with 2 and the result of the divide you divided it by
 
 - **Letter Z** : `code`=479001610 , `key`=414
 
+## Compile
+
+Download and use the gcc compiler to compile the project. Depending on your operating system, type the following to compile:
+
+#### Windows:
+
+```bash
+cd directory of the .cpp file
+g++ CryptoV1.cpp -o crypto.exe
+crypto.exe
+```
+crypto is just a name for the .exe you can give whatever you want.
+
+#### Linux:
+
+```bash
+cd directory of the .cpp file
+g++ CryptoV1.cpp 
+./a.out
+```
+a.out is the default output of the g++ name of file.cpp command
+
 
