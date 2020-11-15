@@ -26,7 +26,7 @@ int main()
     map<char,int> m;
 
     char ab[26] = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}; //alphabetic table
-    int KsH[26] = {4,4,4,5,6,4,4,4,4,4,5,2,2,2,7,2,2,5,3,6,2,2,2,5,5,4}; //table with the positions of the letters
+    int KsH[26] = {4,4,4,5,6,4,4,4,4,4,5,2,2,2,7,2,2,5,3,6,2,2,2,5,5,4}; //table with the number of letters that each letter has
 
 //in the loop we make pair of the letter and the key
     for(int i=0; i<26; i++)
