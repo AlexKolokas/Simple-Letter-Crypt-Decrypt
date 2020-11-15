@@ -10,7 +10,7 @@ In the other hand if you have a code and a key(maybe someone send it to you) you
 - NumberOfLetters= the number of letters each letter has in Greek language(based on his position ). 
 But the Greek alphabet has 24 letters no 26 so the y and z they don't have a Greek letter so i spell them in Greek as they are.
 - letterPosition = The position of the letter in the alphabet
--PositionOfL= if the number is bigger that 12 then his position became the position of L so 12. 
+- PositionOfL= if the number is bigger that 12 then his position became the position of L so 12. 
 
 | English Letter| Greek Letter | Greek name |NumberOfLetters |letterPosition |
 | ------------- | ------------- |------------- |------------- |------------- |
