@@ -82,13 +82,5 @@ crypto.exe
 ```
 crypto is just a name for the .exe you can give whatever you want.
 
-#### Linux:
-
-```bash
-cd directory of the .cpp file
-g++ CryptoV1.cpp 
-./a.out
-```
-a.out is the default output of the g++ name of file.cpp command
 
 
