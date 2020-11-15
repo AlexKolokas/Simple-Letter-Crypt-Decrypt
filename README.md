@@ -59,7 +59,7 @@ then you divide the result with 2 and the result of the divide you divided it by
 
 - `V-Z (the key is 3 digits)` =  you isolate the first digit of the key. and the last 2 digits of the key to a new variable( remain of the key) <a href="https://www.codecogs.com/eqnedit.php?latex=code&space;-\sum_{0}^{key}=&space;result" target="_blank"><img src="https://latex.codecogs.com/svg.latex?code&space;-\sum_{0}^{key}=&space;result" title="code -\sum_{0}^{key}= result" /></a> 
 then you divide the result with 2 and the result of the divide you divided it by 3 ... until the result is equal to 1 .
- The divisor that gave the result equal to 1 +remain of the key is the factorial. The keyForTheLetter= Factrorial *10 +key. And from the key you found the letter.
+ The divisor that gave the result equal to 1 +remain of the key is the factorial. The <a href="https://www.codecogs.com/eqnedit.php?latex=KeyForTheLetter=Factorial*10&plus;key" target="_blank"><img src="https://latex.codecogs.com/svg.latex?KeyForTheLetter=Factorial*10&plus;key" title="KeyForTheLetter=Factorial*10+key" /></a>. And from the key you found the letter.
 
 ## Examples
 
