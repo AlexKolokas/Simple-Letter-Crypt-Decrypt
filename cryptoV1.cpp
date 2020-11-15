@@ -1,4 +1,4 @@
-#define _fileno(F) ((F)->_file)
+//#define _fileno(F) ((F)->_file) 
 #include <iostream>
 #include <sstream>
 #include <map>
