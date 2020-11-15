@@ -45,7 +45,7 @@ But the Greek alphabet has 24 letters no 26 so the y and z they don't have a Gre
 
  
 - `The code of the letter` is : A-L= <img src="https://latex.codecogs.com/svg.latex?letterPosition!&space;&plus;\sum_{0}^{NumberOfLetters}" title="Z=x! +\sum_{c}^{v}" /></a>
-L-Z =<img src="https://latex.codecogs.com/svg.latex?(PositionOfL)!&space;&plus;\sum_{0}^{NumberOfLetters}" title="Z=x! +\sum_{c}^{v}" /></a>
+ L-Z =<img src="https://latex.codecogs.com/svg.latex?(PositionOfL)!&space;&plus;\sum_{0}^{NumberOfLetters}" title="Z=x! +\sum_{c}^{v}" /></a>
 - `The Key of the letter` is :  A-L= NumberOfLetters , M-U = NumberOfLetters * 10+(letterPosition-12) , V-Z=NumberOfLetters * 100+(letterPosition-12)
 
 ## The Decryption Formula
