@@ -69,8 +69,21 @@ then you divide the result with 2 and the result of the divide you divided it by
 
 - **Letter Z** : `code`=479001610 , `key`=414
 
+
 ## Compile
 
+Download and use the gcc compiler to compile the project. Depending on your operating system, type the following to compile:
+
+#### Windows:
+```bash
+g++ cryptoV1.cpp -o crypto.exe
+crypto.exe
+
+#### Linux:
+```bash
+g++ cryptoV1.cpp
+./a.out
+```
 
 
 
