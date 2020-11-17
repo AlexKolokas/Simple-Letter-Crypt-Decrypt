@@ -78,7 +78,7 @@ Download and use the gcc compiler to compile the project. Depending on your oper
 ```bash
 g++ cryptoV1.cpp -o crypto.exe
 crypto.exe
-
+```
 #### Linux:
 ```bash
 g++ cryptoV1.cpp
